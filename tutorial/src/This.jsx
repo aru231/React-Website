@@ -18,6 +18,7 @@ const This = () => {
         <Route exact path="/about" component={About} />
         <Route exact path="/service" component={Service} />
       </Switch>
+      <Footer/>
       
     </React.Fragment>
   );
